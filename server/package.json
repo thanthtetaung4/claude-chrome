@@ -1,0 +1,11 @@
+{
+  "name": "claude-browser-bridge-server",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude Desktop control Chrome through the Claude Browser Bridge extension",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "claude-browser-bridge": "index.js" },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
